@@ -1,0 +1,258 @@
+30
+epoch :  2
+layer name :  conv2_x.0.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.5179169920997992e-08
+bn.bias mse distance 1.2109795111125976e-10
+bn.avg mse distance 2.539544796675841e-09
+bn.var mse distance 1.8388015554648973e-09
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 1.1077389672209392e-06
+bn.bias mse distance 8.529898565257099e-09
+bn.avg mse distance 1.5773014183650957e-07
+bn.var mse distance 1.2950454220117535e-07
+-------------- FP32 - BF16 end --------------------
+epoch :  7
+layer name :  conv3_x.0.shortcut.1
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.4793691605063941e-08
+bn.bias mse distance 1.378347574965133e-10
+bn.avg mse distance 2.9327800188383435e-09
+bn.var mse distance 5.129983660090431e-10
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 9.197601684718393e-07
+bn.bias mse distance 7.590191586359651e-09
+bn.avg mse distance 2.006550232636073e-07
+bn.var mse distance 3.6266214920033235e-08
+-------------- FP32 - BF16 end --------------------
+epoch :  14
+layer name :  conv4_x.1.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.9873571233119947e-08
+bn.bias mse distance 3.048450381015755e-10
+bn.avg mse distance 4.097434835870217e-09
+bn.var mse distance 6.461784995970277e-10
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 1.3120226185492356e-06
+bn.bias mse distance 2.0996473892864742e-08
+bn.avg mse distance 2.572563460034871e-07
+bn.var mse distance 3.743029708402901e-08
+-------------- FP32 - BF16 end --------------------
+60
+epoch :  2
+layer name :  conv2_x.0.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 6.086486425971316e-09
+bn.bias mse distance 1.4926485047972449e-10
+bn.avg mse distance 9.652649790581336e-10
+bn.var mse distance 1.7667618756878056e-10
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 3.883530439452443e-07
+bn.bias mse distance 9.400833000938746e-09
+bn.avg mse distance 9.336901740653047e-08
+bn.var mse distance 1.139141136974331e-08
+-------------- FP32 - BF16 end --------------------
+epoch :  7
+layer name :  conv3_x.0.shortcut.1
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 4.260560793056811e-09
+bn.bias mse distance 9.799871331095389e-11
+bn.avg mse distance 7.509822208540129e-10
+bn.var mse distance 2.948761373966491e-11
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 2.3235094204210327e-07
+bn.bias mse distance 6.2208243001293795e-09
+bn.avg mse distance 4.074957971056392e-08
+bn.var mse distance 2.3373480928512436e-09
+-------------- FP32 - BF16 end --------------------
+epoch :  14
+layer name :  conv4_x.1.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 4.879249893008364e-09
+bn.bias mse distance 5.91747095768369e-10
+bn.avg mse distance 5.923556645193173e-10
+bn.var mse distance 2.0494559174744076e-11
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 3.257837022374588e-07
+bn.bias mse distance 4.1295667330132346e-08
+bn.avg mse distance 4.173618961544889e-08
+bn.var mse distance 1.2706153906805184e-09
+-------------- FP32 - BF16 end --------------------
+90
+epoch :  2
+layer name :  conv2_x.0.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 2.8215445535551e-09
+bn.bias mse distance 8.632101977656959e-11
+bn.avg mse distance 6.312292910592987e-10
+bn.var mse distance 4.293027044965925e-11
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 2.0502676534306374e-07
+bn.bias mse distance 1.0639711334192725e-08
+bn.avg mse distance 4.16263539193551e-08
+bn.var mse distance 2.113921038215949e-09
+-------------- FP32 - BF16 end --------------------
+epoch :  7
+layer name :  conv3_x.0.shortcut.1
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.5767197547589262e-09
+bn.bias mse distance 4.2404579847499235e-11
+bn.avg mse distance 2.4716459434692695e-10
+bn.var mse distance 4.3708561076050145e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 8.917729132917884e-08
+bn.bias mse distance 3.179295049449138e-09
+bn.avg mse distance 1.563334528498217e-08
+bn.var mse distance 3.1857239068955323e-10
+-------------- FP32 - BF16 end --------------------
+epoch :  14
+layer name :  conv4_x.1.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.4104204471010462e-09
+bn.bias mse distance 4.671441011794286e-10
+bn.avg mse distance 3.5887767757536437e-10
+bn.var mse distance 4.4361476297938296e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 8.796503436769854e-08
+bn.bias mse distance 2.9708814963669283e-08
+bn.avg mse distance 1.9780419080461797e-08
+bn.var mse distance 2.595220149892441e-10
+-------------- FP32 - BF16 end --------------------
+120
+epoch :  2
+layer name :  conv2_x.0.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 2.493708128881167e-09
+bn.bias mse distance 1.507177299631124e-10
+bn.avg mse distance 4.459758673469594e-10
+bn.var mse distance 2.912744698213565e-11
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 1.0329590338642447e-07
+bn.bias mse distance 1.204087851647273e-08
+bn.avg mse distance 3.2978320518850524e-08
+bn.var mse distance 2.103995422331195e-09
+-------------- FP32 - BF16 end --------------------
+epoch :  7
+layer name :  conv3_x.0.shortcut.1
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.0709320097390673e-09
+bn.bias mse distance 3.767524139886014e-11
+bn.avg mse distance 2.0736996841907995e-10
+bn.var mse distance 2.5080269892147067e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 6.35212060728918e-08
+bn.bias mse distance 2.5803834624582578e-09
+bn.avg mse distance 1.2459285159138744e-08
+bn.var mse distance 1.581583058962721e-10
+-------------- FP32 - BF16 end --------------------
+epoch :  14
+layer name :  conv4_x.1.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.1979369718417843e-09
+bn.bias mse distance 4.413301113448398e-10
+bn.avg mse distance 3.575335583150263e-10
+bn.var mse distance 2.0542374225274163e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 7.32440241790755e-08
+bn.bias mse distance 2.515701957861438e-08
+bn.avg mse distance 2.0142724821425873e-08
+bn.var mse distance 1.1719489267925098e-10
+-------------- FP32 - BF16 end --------------------
+150
+epoch :  2
+layer name :  conv2_x.0.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 2.162983347986369e-09
+bn.bias mse distance 2.2550539213739285e-10
+bn.avg mse distance 6.494720317107294e-10
+bn.var mse distance 2.008323715663174e-11
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 1.3644955743075116e-07
+bn.bias mse distance 1.2869767473944194e-08
+bn.avg mse distance 3.8131343416125674e-08
+bn.var mse distance 1.2428387208274216e-09
+-------------- FP32 - BF16 end --------------------
+epoch :  7
+layer name :  conv3_x.0.shortcut.1
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 7.964385817516018e-10
+bn.bias mse distance 3.252213776061552e-11
+bn.avg mse distance 1.65682273456369e-10
+bn.var mse distance 2.469793683804178e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 7.699895121504596e-08
+bn.bias mse distance 2.1657537985220188e-09
+bn.avg mse distance 1.2333916110662813e-08
+bn.var mse distance 1.3349918392968618e-10
+-------------- FP32 - BF16 end --------------------
+epoch :  14
+layer name :  conv4_x.1.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.2429764995047776e-09
+bn.bias mse distance 4.26469637382354e-10
+bn.avg mse distance 2.934539833354677e-10
+bn.var mse distance 1.4511085475593655e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 7.58039817583267e-08
+bn.bias mse distance 2.120680164807709e-08
+bn.avg mse distance 2.2722050019297058e-08
+bn.var mse distance 9.837419767677602e-11
+-------------- FP32 - BF16 end --------------------
+180
+epoch :  2
+layer name :  conv2_x.0.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.7904140392488443e-09
+bn.bias mse distance 2.1635079838766558e-10
+bn.avg mse distance 5.321588725237802e-10
+bn.var mse distance 1.4397601166837859e-11
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 1.2550010808354273e-07
+bn.bias mse distance 1.69285279127962e-08
+bn.avg mse distance 2.8478016389499317e-08
+bn.var mse distance 1.1555922885264636e-09
+-------------- FP32 - BF16 end --------------------
+epoch :  7
+layer name :  conv3_x.0.shortcut.1
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 9.51828837969515e-10
+bn.bias mse distance 2.1850458942207496e-11
+bn.avg mse distance 2.1550719542240415e-10
+bn.var mse distance 1.6895904163607978e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 5.5850790658951155e-08
+bn.bias mse distance 2.3519797220927785e-09
+bn.avg mse distance 1.0754372503640752e-08
+bn.var mse distance 1.3263087850212685e-10
+-------------- FP32 - BF16 end --------------------
+epoch :  14
+layer name :  conv4_x.1.residual_function.4
+-------------- FP32 - FP16 distance --------------------
+bn.weight mse distance 1.2203940080723896e-09
+bn.bias mse distance 4.590796631731564e-10
+bn.avg mse distance 2.9587093886007665e-10
+bn.var mse distance 1.5230674794280974e-12
+-------------- FP32 - FP16 end --------------------
+-------------- FP32 - BF16 distance --------------------
+bn.weight mse distance 7.577317262530414e-08
+bn.bias mse distance 2.8638854843165973e-08
+bn.avg mse distance 2.0868304417831496e-08
+bn.var mse distance 1.0382427556576701e-10
+-------------- FP32 - BF16 end --------------------

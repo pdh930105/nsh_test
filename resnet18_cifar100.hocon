@@ -1,0 +1,64 @@
+# ---------network parameter---------------
+
+data_path = "/dataset/"
+dataset = "cifar100" # options: imagenet | cifar10 | cifar100
+nGPU = 1
+GPU = [0, 1]
+visible_devices = "1"
+
+# ----------- Data options -------------------
+worker = 8 # number of data loader 
+
+
+# ----------- Model Option -------------------
+model_name = "resnet18"
+save_path = "/data/nsh/save_log/"${dataset}_${model_name}
+
+# ----------- Train options ------------------
+seed = 3
+train = True
+epochs = 200
+batch_size = 128
+
+# ----------- optimizer option ----------------
+
+weight_decay = 5e-4
+optimizer = "SGD"
+warmup = 5
+lr = 0.1
+momentum = 0.9
+nesterov = True
+
+# ----------- scheduler option ------------------
+ 
+scheduler = "multi_step"
+ml_step = [60, 120, 160]
+lr_gamma = 0.2
+
+# -------- log option --------------------
+log_override = False
+
+# ----------- Data options -------------------
+worker = 8 # number of data loader 
+
+# ----------- Train options ------------------
+seed = 3
+train = True
+epochs = 200
+batch_size = 128
+momentum = 0.9
+weight_decay = 5e-4
+optimizer = "SGD"
+nesterov = True
+warmup = 5
+scheduler = "multi_step"
+ml_step = [60, 120, 160]
+lr_gamma = 0.2
+load_state_dict = False
+
+# -------- log option --------------------
+log_override = True
+activation_index = [3, 9, 15]
+activation_step = [0, 30, 50, 70, 100]
+get_weight_param=True
+get_weight_grad_param=True

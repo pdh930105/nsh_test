@@ -1,0 +1,30 @@
+# ---------network parameter---------------
+save_path = "./save_log/"
+data_path = "/dataset/ImageNet/Classification"
+dataset = "imagenet" # options: imagenet | cifar10 | cifar100
+nGPU = 4
+GPU = [0, 1, 2, 3]
+visible_devices = "1"
+model_name = "resnet18"
+
+# ----------- Data options -------------------
+worker = 8 # number of data loader 
+
+# ----------- Train options ------------------
+seed = 0
+train = True
+epochs = 120
+batch_size = 256
+momentum = 0.9
+weight_decay = 1e-4
+optimizer = "SGD"
+warmup = 4
+lr = 0.01
+scheduler = "multi_step"
+ml_step = [60, 90]
+lr_gamma = 0.1
+
+# -------- log option --------------------
+log_override = True
+activation_index = [2, 7, 14]
+activation_step = [30, 50, 70, 100]
